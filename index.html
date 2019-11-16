@@ -3,21 +3,202 @@
 
 <head>
 	<title>Joel Braun</title>
-	<meta name="description" content="Premium quality software development specializing in backend software and communications applications with various languages such as Java, PHP, Python, HTML, CSS, and many more. Fast, efficient, and reliable."></meta>
-	<meta name="keywords" content="software developer,software engineer,quality software development,computer engineer,computer programmer,reliable,fast,efficient,reliable software developer,reliable coder, coder,fast software developer,fast computer programmer, fast coder,java developer,c++ developer,html developer,website developer"&gt;></meta>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"></link>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Premium quality software development specializing in backend software and communications applications with various languages such as Java, PHP, Python, HTML, CSS, and many more. Fast, efficient, and reliable.">
+	<meta name="keywords" content="software developer,software engineer,quality software development,computer engineer,computer programmer,reliable,fast,efficient,reliable software developer,reliable coder, coder,fast software developer,fast computer programmer, fast coder,java developer,c++ developer,html developer,website developer"&gt;>
+	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"></link> -->
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-	<div class="row">
-		<div class="col-md-6">
-			<h3>Hello there, My name is Joel Braun!</h3>
+	<!-- Navigation Bar -->
+	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+		<div class="container-fluid">
+			<!-- Logo -->
+			<a class="navbar-brand" href="#"><img src="img/logo.png" height="50" width="auto"></a>
+			<!-- Drop-down button for when screen is small -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<!-- Regular Navigation Bar -->
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#about-section">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="portfolio.html">Portfolio</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="resume.html">Resume</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact Me</a>
+					</li>
+				</ul>
+			</div>
 		</div>
-		<div class="col-md-6">
-			<h3>Woooo developing websites yah!!! Fun stuff</h3>
-			<button type="button" class="btn btn-primary">Joel is a G</button>
+	</nav>
+
+	<!-- Slideshow -->
+	<div id="slides" class="carousel slide" data-ride="carousel">
+		<!-- The Indicator at the bottom that shows what slide you're on -->
+		<ul class="carousel-indicators">
+			<li data-target="#slides" data-slide-to="0" class="active"></li>
+			<li data-target="#slides" data-slide-to="1"></li>
+			<li data-target="#slides" data-slide-to="2"></li>
+			<li data-target="#slides" data-slide-to="3"></li>
+		</ul>
+		<!-- The Actual Slides -->
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="img/university-of-waterloo-arielshot.jpg">
+				<div class="carousel-caption">
+					<h1 class="display_2">Joel Braun</h1>
+					<h3>In Honours Computer Engineering</h3>
+					<a href="contact.html">
+						<button type="button" class="btn btn-outline-light btn-lg">Contact</button>
+					</a>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="img/software-development.png">
+			</div>
+			<div class="carousel-item">
+				<img src="img/circuit-board-close-up.jpg">
+			</div>
+			<div class="carousel-item">
+				<img src="img/university-of-waterloo-sign.jpg">
+			</div>
 		</div>
 	</div>
+
+	<!-- Introduction Paragragh -->
+	<div class="container-fluid">
+		<div class="row jumbotron">
+			<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+				<p class="lead intro">
+					Hello, I'm Joel Braun. I am a undergraduate at the University of Waterloo studying Honours Computer Engineering with Co-op.
+				</p>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+				<a href="contact.html">
+					<button type="button" class="btn btn-outline-dark btn-lg">Contact</button>
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<!-- Recent/Main Projects -->
+	<!-- Text before the projects -->
+	<div class="container-fluid padding">
+		<div class="row welcome text-center">
+			<div class="col-12">
+				<h1 class="display_4">Recent/Main Projects</h3>
+			</div>
+			<hr>
+			<div class="col-12">
+				<p class="lead">
+					These are a few of my more recent and larger projects.
+				</p>
+			</div>
+			<div class="col-12">
+				<a href="portfolio.html">
+					<button type="button" class="btn btn-dark btn-lg">View Projects</button>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- Project Cards -->
+	<div class="container-fluid padding">
+		<div class="row padding">
+			<!-- Yoilith Project Card -->
+			<div class="col-md-4">
+				<div class="card">
+					<img class="card-img-top" src="img/yoilith.png">
+					<div class="card-body">
+						<h4 class="card-title">Yoilith</h4>
+						<p class="card-text">
+							Yoilith is a game I designed and created using Java and LibGDX. It is a top-down, third-person
+							shooter game where the goal is to survive.
+						</p>
+						<a href="#">
+							<button type="button" class="btn btn-outline-dark">Yoilith</button>
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- joelbraun.ca Project Card -->
+			<div class="col-md-4">
+				<div class="card">
+					<img class="card-img-top" src="img/joelbraun-website.png">
+					<div class="card-body">
+						<h4 class="card-title">joelbraun.ca</h4>
+						<p class="card-text">
+							This is my personal website that I created recently using HTML5, CSS3, Javascript, and Bootstrap.
+							The Protfolio part is used to showcase my projects.
+						</p>
+						<a href="#">
+							<button type="button" class="btn btn-outline-dark">joelbraun.ca</button>
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- Encryption Algorithm Project Card -->
+			<div class="col-md-4">
+				<div class="card">
+					<img class="card-img-top" src="img/capacitive-touch-led.png">
+					<div class="card-body">
+						<h4 class="card-title">Capacitive Touch LED</h4>
+						<p class="card-text">
+							I created and designed this circuit to be able of sensing a fingers position on 1 axis and to
+							adjust the colour of an LED based on the position.
+						</p>
+						<a href="#">
+							<button type="button" class="btn btn-outline-dark">Capacitive Touch LED</button>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Fixed Background With About Me -->
+	<hr class="my-4">
+	<div class="parallax" id="about-section"> <!-- In page link to the About Section -->
+		<h1 class="display_2 text-light">About Me</h1>
+	</div>
+	<hr class="my-4">
+
+	<!-- About Me Section -->
+	<!-- Eduction -->
+	<h1 class="display_4">Education:</h1>
+	<div class="container-fluid">
+		<div class="row jumbotron">
+			<div class="col-sm-12 col-md-9 col-xl-10">
+				<h4>University of Waterloo</h4>
+				<p>
+					I am currently enrolling in Honours Computer Engineering with Co-op at the University of Waterloo.
+					This is a 5 year program with 8 acedemic terms and up to 6 co-op terms. I am currently in the first
+					acedemic term and I am in the top 4% of my program in the Fundementals of Programming course.
+				</p>
+			</div>
+			<div class="col-sm-12 col-md-3 col-xl-2">
+
+			</div>
+		</div>
+	</div>
+
 </body>
 
 <footnote>
