@@ -37,12 +37,12 @@ html, body {
 .carousel-caption h1 {
   font-size: 500%;
   text-transform: uppercase;
-  text-shadow: 1px 1px 10px #000;
+  text-shadow: 2px 2px 10px #000;
 }
 
 .carousel-caption h3 {
   text-transform: uppercase;
-  text-shadow: 1px 1px 10px #000;
+  text-shadow: 2px 2px 10px #000;
 }
 
 .carousel-caption button {
@@ -77,12 +77,25 @@ html, body {
 }
 
 .parallax {
-  background-image: url(img/university-of-waterloo-arielshot.jpg);
-  height: 50%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.parallax-arielshot {
+  background-image: url(img/university-of-waterloo-arielshot.jpg);
+  height: 50%;
+}
+
+.parallax-contact {
+  background-image: url(img/contact-me.jpg);
+  height: 80%;
+}
+
+.parallax-construction {
+  background-image: url(img/page-under-construction.png);
+  height: 80%;
 }
 
 .parallax h1 {
@@ -91,4 +104,55 @@ html, body {
   font-size: 500%;
   text-transform: uppercase;
   text-shadow: 1px 1px 10px #000;
+}
+
+.social a {
+  font-size: 4.5rem;
+  padding: 3rem;
+}
+
+.fa-linkedin {
+  color: #2867B2;
+}
+
+.fa-github {
+  color: #211F1F;
+}
+
+.fa-instagram {
+  display: inline-block;
+  width: 200px;
+  height: 70px;
+  text-align: center;
+  border-radius: 40px;
+  color: #fff;
+  line-height: 250px;
+  vertical-align: middle;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
+
+.fa-linkedin:hover,
+.fa-github:hover,
+.fa-instagram:hover {
+  color: #d5d5d5;
+}
+
+footer {
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  padding-top: 2rem;
+}
+
+footer p {
+  width: 70%;
+  transform: translateX(20%);
+}
+
+hr.light {
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
 }
