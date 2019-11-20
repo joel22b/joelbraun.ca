@@ -5,6 +5,7 @@ html, body {
   width: 100%;
   font-family: 'Poppins', sans-serif;
   color: #222;
+  scroll-behavior: smooth;
 }
 
 .navbar {
@@ -37,16 +38,16 @@ html, body {
 .carousel-caption h1 {
   font-size: 500%;
   text-transform: uppercase;
-  text-shadow: 2px 2px 10px #000;
+  text-shadow: 4px 4px 10px #000;
 }
 
 .carousel-caption h3 {
   text-transform: uppercase;
-  text-shadow: 2px 2px 10px #000;
+  text-shadow: 4px 4px 10px #000;
 }
 
 .carousel-caption button {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.4);
   text-shadow: 1px 1px 10px #000;
 }
 
@@ -61,6 +62,14 @@ html, body {
 
 .padding {
   padding-bottom: 2rem;
+}
+
+.padding-2 {
+  padding-bottom: 4rem;
+}
+
+.margin-left {
+  margin-left: 2rem;
 }
 
 .welcome {
@@ -85,7 +94,6 @@ html, body {
 
 .parallax-arielshot {
   background-image: url(img/university-of-waterloo-arielshot.jpg);
-  height: 50%;
 }
 
 .parallax-contact {
@@ -98,12 +106,28 @@ html, body {
   height: 80%;
 }
 
+.parallax-software {
+  background-image: url(img/software-development.png);
+}
+
+.parallax-interests {
+  background-image: url(img/interests.png);
+}
+
 .parallax h1 {
   text-align: center;
   transform: translateY(100%);
   font-size: 500%;
   text-transform: uppercase;
   text-shadow: 1px 1px 10px #000;
+}
+
+.transparent {
+  background-color: rgba(233, 236, 239, 0.8);
+}
+
+.grey-background {
+  background-color: rgba(233, 236, 239, 0.5);
 }
 
 .social a {
@@ -137,6 +161,21 @@ html, body {
 .fa-github:hover,
 .fa-instagram:hover {
   color: #d5d5d5;
+}
+
+.fa-code {
+  font-size: 500%;
+  color: #e34f26;
+}
+
+.fa-css3 {
+  font-size: 500%;
+  color: #264de4;
+}
+
+.fa-js {
+  font-size: 500%;
+  color: #f0db4f;
 }
 
 footer {
