@@ -60,6 +60,14 @@ html, body {
   transform: translateX(10%);
 }
 
+.list {
+  line-height: 8px;
+}
+
+.padding-small {
+  padding-bottom: 1rem;
+}
+
 .padding {
   padding-bottom: 2rem;
 }
@@ -176,6 +184,10 @@ html, body {
 .fa-js {
   font-size: 500%;
   color: #f0db4f;
+}
+
+.smaller {
+  font-size: 300%;
 }
 
 footer {
