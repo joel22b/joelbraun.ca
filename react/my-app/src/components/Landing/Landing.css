@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900");
+@import url(../../generic/css/bootstrap.min.css);
+@import url(../../generic/css/animate.css);
+
+.wrap-bg {
+    overflow: hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+  }
+  
+  .js-image {
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .js-lines-l {
+    overflow: hidden;
+    text-align: left;
+  }
+  
+  .jarallax {
+    position: relative;
+    z-index: 0;
+  }
+  
+  .jarallax > .jarallax-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .header-fullscreen {
+    color: #fff;
+    height: 100vh;
+  }
+  .header-fullscreen.header-page {
+    margin-top: 0;
+    margin-bottom: 0rem;
+    padding-bottom: 0rem;
+  }
+  @media only screen and (max-width: 580px) {
+    .header-fullscreen.header-page {
+      margin-bottom: 1.5rem;
+      padding-bottom: 1.5rem;
+    }
+  }
+  .header-fullscreen .title--overhead,
+  .header-fullscreen .item-details__title,
+  .header-fullscreen .btn-link {
+    color: #fff;
+  }
+  .header-fullscreen .title--tail::before {
+    background-color: #fff;
+  }
+  
+  .header-page {
+    margin-top: 20vh;
+    margin-bottom: 2rem;
+  }
+  @media only screen and (max-width: 768px) {
+    .header-page {
+      margin-top: 9.37rem;
+    }
+  }
+  @media only screen and (max-width: 580px) {
+    .header-page {
+      margin-top: 6rem;
+    }
+  }
+  
+  .flex-center-end {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+  }
+  .flex-center-end .flex-center {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: flex;
+    flex: 1;
+  }
+  .flex-center-end .flex-center__inner {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5rem;
+    width: 100%;
+  }
+  @media only screen and (max-width: 580px) {
+    .flex-center-end .flex-center__inner {
+      text-align: center;
+    }
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 3.4rem;
+  }
+  @media only screen and (max-width: 1200px) {
+    h1, h2, h3, h4, h5, h6 {
+      margin-bottom: 3rem;
+    }
+  }
+  
+  .title {
+    transition: all 0.1s cubic-bezier(0.72, 0.16, 0.345, 0.875);
+  }
+  .title--display {
+    font-size: 4rem;
+    letter-spacing: -0.1rem;
+    margin-bottom: 1.3rem;
+    font-weight: 300;
+    line-height: 1.5;
+  }
+  @media only screen and (max-width: 1000px) {
+    .title--display {
+      font-size: 3rem;
+      line-height: 1.5;
+    }
+  }
+  @media only screen and (max-width: 580px) {
+    .title--display {
+      font-size: 2.2rem;
+      line-height: 1.5;
+      letter-spacing: 0rem;
+      font-weight: 400;
+    }
+  }
+  
+  .title .num-article {
+    margin-bottom: 0;
+  }
+  
+  .text--blue {
+    color: #3e50f1;
+  }
+  
+  .semitransparent {
+      background: black;
+      opacity: 0.4;
+      position: absolute;
+      top:0; left:0; right:0; bottom:0;
+  }
+
+  .reveal {
+    position: relative;
+    overflow: hidden;
+  }
+  .reveal::after, .reveal::before {
+    content: '';
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  .reveal::after {
+    background: #fff;
+    z-index: 1;
+  }
+  .touch .reveal::after, .touch .reveal::before {
+    visibility: hidden;
+  }
+  .reveal.animated::before {
+    background: #110f10;
+    animation: reveal 2s cubic-bezier(0.77, 0, 0.175, 1) both;
+    z-index: 2;
+  }
+  .reveal.animated::after {
+    animation: revealBack 2s cubic-bezier(0.77, 0, 0.175, 1) both;
+  }
+  
+  @keyframes reveal {
+    0% {
+      transform: translateX(-100%);
+    }
+    50% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  @keyframes revealBack {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  @keyframes reveal-vertical {
+    0% {
+      transform: translateY(100%);
+    }
+    50% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-100%);
+    }
+  }

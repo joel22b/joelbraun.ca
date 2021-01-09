@@ -1,0 +1,99 @@
+@import url(../../generic/css/bootstrap.min.css);
+@import url(../../generic/css/text.css);
+
+.experience {
+    padding-bottom: 30px;
+}
+
+.company-logo {
+    border: 2px solid #ddd;
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+}
+
+.vertical-line {
+    background: #ddd;
+    bottom: 0;
+    content: "";
+    left: 50%;
+    z-index: -1;
+    position:relative;
+    top: 0;
+    width: 2px;
+    height: 100%;
+}
+
+.vertical-center {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.reduced-margin {
+    margin-bottom: 10px;
+}
+
+.left-column {
+    position: relative;
+    width: 5vw;
+    height: auto;
+}
+
+.right-column {
+    position: relative;
+    width: 45vw;
+    height: auto;
+    padding-left: 2vw;
+}
+
+.title-left {
+    position: relative;
+    width: 23vw;
+    height: auto;
+    float: left;
+}
+
+.title-right {
+    position: relative;
+    width: 20vw;
+    height: auto;
+    float: right;
+}
+
+@media only screen and (max-width: 600px) {
+    .left-column {
+        width: 10vw;
+    }
+
+    .right-column {
+        width: 80vw;
+    }
+
+    .title-left {
+        width: 48vw;
+    }
+
+    .title-right {
+        width: 30vw;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .left-column {
+        width: 8vw;
+    }
+
+    .right-column {
+        width: 62vw;
+    }
+
+    .title-left {
+        width: 30vw;
+    }
+
+    .title-right {
+        width: 30vw;
+    }
+}

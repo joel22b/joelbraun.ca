@@ -1,0 +1,72 @@
+@import url(../../generic/css/text.css);
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900");
+
+.Project {
+    width: 24.5vw;
+    height: 24.5vw;
+    margin-bottom: 1vw;
+}
+
+@media only screen and (max-width: 600px) {
+    .Project {
+        width: 43vw;
+        height: 43vw;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .Project {
+        width: 33vw;
+        height: 33vw;
+    }
+}
+
+.Project-rounded-corners {
+    border-radius: 25px;
+}
+
+.Project-image {
+    width: inherit;
+    height: inherit;
+}
+
+.Project-semitransparent {
+    background: rgba(62, 80, 241, 0.3);
+    position: relative;
+    transform: translateY(-100%);
+    top:0; left:0; right:0; bottom:0;
+    width: inherit;
+    height: inherit;
+}
+
+.Project-semitransparent:hover {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 1) 30%, rgba(62, 80, 241, 0.3));
+}
+
+.Project-header {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.4;
+    opacity: 1;
+    font-size: 30px;
+    padding-top: 5vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    margin-bottom: 1rem;
+    color: #fff;
+    text-align: center;
+}
+
+.Project-desc {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.3;
+    opacity: 1;
+    font-size: 15px;
+    padding-top: 3vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-bottom: 1rem;
+    color: #fff;
+    text-align: center;
+}

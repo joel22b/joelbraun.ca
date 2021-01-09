@@ -1,0 +1,32 @@
+{
+    "skills": [
+        {
+            "skill": "Java",
+            "colour": "rgb(31, 193, 177)"
+        },
+        {
+            "skill": "Python",
+            "colour": "rgb(245, 171, 0)"
+        },
+        {
+            "skill": "C++",
+            "colour": "rgb(236, 62, 54)"
+        },
+        {
+            "skill": "HTML",
+            "colour": "rgb(52,194,30)"
+        },
+        {
+            "skill": "CSS",
+            "colour": "rgb(31, 193, 177)"
+        },
+        {
+            "skill": "JavaScript",
+            "colour": "rgb(245, 171, 0)"
+        },
+        {
+            "skill": "C#",
+            "colour": "rgb(236, 62, 54)"
+        }
+    ]
+}

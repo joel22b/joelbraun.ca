@@ -1,0 +1,57 @@
+@import url(../../generic/css/text.css);
+
+.ContactBar {
+    position: fixed;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+}
+
+.ContactBar-flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.fa-github-square {
+    color: #211F1F;
+}
+
+.fa-linkedin {
+    color: #2867B2;
+}
+
+.fa-instagram {
+    color: #121212;
+}
+
+.fa-envelope {
+    color: #3e50f1;
+}
+
+.fa-linkedin:hover,
+.fa-envelope:hover,
+.fa-github-square:hover,
+.fa-instagram:hover {
+    color: #d5d5d5;
+}
+
+.ContactBar-icon-size {
+    font-size: 30px;
+}
+
+.ContactBar-icon-spacing {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.ContactBar-icon-background {
+    background-color: #eaeaea;
+    border-radius: 25px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

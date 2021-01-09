@@ -1,0 +1,8 @@
+{
+    "paragraphs": [
+        "Hi! I'm Joel Braun, a passionate computer engineer studying at the university of Waterloo.",
+        "My first introduction to coding was in grade 8, when my teacher allowed us to make anything for a project, and I chose to make a web game. I used HTML, CSS, and Javascript to create it. I've posted it below in the projects section.",
+        "Then in grade 9 I was introduced to Python and C++. In grade 10, I started to learn Java. Throughout highschool, I competed in the Canadian Computing Contest, hosted by the University of Waterloo, in both the junior and senior levels. I always placed near or at the top of my school.",
+        "In grade 12, I created a third person shooter game in Java, using a library called LibGDX. I planned out the design and implemented many features including, but no limited to: random map generation, terrain destruction, explosive weapons, wide range of guns, combo and score system, etc. This was a large project I worked on and was able to learn a lot about algorithms, object oriented programming, game design, and basic artifical intelligence."
+    ]
+} 

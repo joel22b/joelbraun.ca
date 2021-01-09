@@ -1,0 +1,48 @@
+{
+    "experience": [
+        {
+            "logoName": "companyLogoNCR",
+            "role": "Software Developer Coop",
+            "company": "NCR Corporation",
+            "date": "Sept 2020 - Dec 2020",
+            "points": [
+                "Developed a system to deposit checks in Java using test driven development.",
+                "Quickly learned the project and how every layer integrated together.",
+                "Worked closely with a developer team using agile methodologies."
+            ]
+        },
+        {
+            "logoName": "companyLogoNCR",
+            "role": "Performance Test Engineer Coop",
+            "company": "NCR Company",
+            "date": "Jan 2020 - Apr 2020",
+            "points": [
+                "Worked closely with developers to design test plans.",
+                "Managed and deployed a performance cluster using kubernetes on linux servers.",
+                "Automated tests, cleanup, and updates using bash scripts."
+            ]
+        },
+        {
+            "logoName": "companyLogoCampKahquah",
+            "role": "Cabin Leader",
+            "company": "Camp Kahquah",
+            "date": "Summer 2019",
+            "points": [
+                "Successfully led groups of children through fun and enjoyable activities.",
+                "Worked hard with a team of people to plan and run events.",
+                "Communicated with other staff to solve problems."
+            ]
+        },
+        {
+            "logoName": "companyLogoTeamBrauns",
+            "role": "Carpenter",
+            "company": "Team Brauns",
+            "date": "Summers 2017 - 2018",
+            "points": [
+                "Managed time and exceeded job quotas.",
+                "Quickly trained on wood working machines.",
+                "Worked well independently with minimal supervision."
+            ]
+        }
+    ]
+}

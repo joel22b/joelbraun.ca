@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900");
+
+.section {
+    padding-left: 25vw;
+    padding-right: 25vw;
+    padding-bottom: 5rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .section {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .section {
+        padding-left: 15vw;
+        padding-right: 15vw;
+    }
+}
+
+.section-header {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    color: #121212;
+    border-bottom: 2px solid #ddd;
+    text-align: left;
+}
+
+.header {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 0.8;
+    font-size: 30px;
+    margin-bottom: 1rem;
+    color: #121212;
+    text-align: left;
+}
+
+.sub-header {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1;
+    font-size: 20px;
+    margin-bottom: 1rem;
+    color: #121212;
+    text-align: left;
+}
+
+.large-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1;
+    font-size: 20px;
+    margin-bottom: 0rem;
+}
+
+.bullet-point {
+    font-family: "Roboto", sans-serif;
+    color: #121212;
+    text-align: left;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    color: #121212;
+    text-align: left;
+}

@@ -1,0 +1,22 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.skill {
+    display:inline-block;
+    border-radius: 10px;
+    background: #eaeaea;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 450;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 8px;
+    padding-left: 8px;
+    margin: 8px 3px 3px 3px;
+    font-size: .9em;
+    line-height: 25px;
+    height: 25px;
+}

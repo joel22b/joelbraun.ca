@@ -1,0 +1,8 @@
+@import url(../../generic/css/text.css);
+
+.Projects-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

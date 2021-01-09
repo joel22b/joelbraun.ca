@@ -1,0 +1,12 @@
+{
+    "skills": [
+        {
+            "skill": "Agile",
+            "colour": "rgb(31, 193, 177)"
+        },
+        {
+            "skill": "Test Driven Development",
+            "colour": "rgb(245, 171, 0)"
+        }
+    ]
+}

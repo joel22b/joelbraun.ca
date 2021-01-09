@@ -1,0 +1,19 @@
+{
+    "projects": [
+        {
+            "imageName": "projectImageCapacitiveTouchLED",
+            "name": "Capacitive Touch LED",
+            "desc": "This project uses a customly designed capacitive touch slider and a button to control the colour of a RGB LED."
+        },
+        {
+            "imageName": "projectImageYoilith",
+            "name": "Yoilith",
+            "desc": "Third-person shootor game created in Java with many features like random map generation, terrain destruction, explosive weapons, wide range of guns, and combo and score system."
+        },
+        {
+            "imageName": "projectImageFirstWebGame",
+            "name": "First Web Game",
+            "desc": "This is the first project I did back in grade 8. It has a top-down 2D map where you are hunted down by wild animals."
+        }
+    ]
+}

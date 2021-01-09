@@ -1,0 +1,23 @@
+@import url(../../generic/css/bootstrap.min.css);
+
+.bg--white {
+    background: #eaeaea;
+  }
+
+.navbar {
+    padding: .8rem;
+  }
+  
+  .navbar-nav {
+    padding-right: 20px;
+  }
+  
+  .nav-item {
+    padding-right: 10px;
+  }
+  
+  .nav-link {
+    font-size: 1.1em !important;
+    font-family: "Roboto", sans-serif;
+    color: #121212;
+  }

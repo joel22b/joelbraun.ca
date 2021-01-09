@@ -1,0 +1,36 @@
+{
+    "skills": [
+        {
+            "skill": "Google Cloud Platform",
+            "colour": "rgb(31, 193, 177)"
+        },
+        {
+            "skill": "Kubernetes",
+            "colour": "rgb(245, 171, 0)"
+        },
+        {
+            "skill": "Git",
+            "colour": "rgb(236, 62, 54)"
+        },
+        {
+            "skill": "Linux CL",
+            "colour": "rgb(52,194,30)"
+        },
+        {
+            "skill": "Jenkins",
+            "colour": "rgb(31, 193, 177)"
+        },
+        {
+            "skill": "CI/CD",
+            "colour": "rgb(245, 171, 0)"
+        },
+        {
+            "skill": "Cassandra",
+            "colour": "rgb(236, 62, 54)"
+        },
+        {
+            "skill": "Docker",
+            "colour": "rgb(52,194,30)"
+        }
+    ]
+}

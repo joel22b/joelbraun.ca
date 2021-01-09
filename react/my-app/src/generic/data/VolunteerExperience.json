@@ -1,0 +1,35 @@
+{
+    "experience": [
+        {
+            "logoName": "companyLogoWestheightsCC",
+            "role": "Sound Technician",
+            "company": "Westheights CC",
+            "date": "2019 - Present",
+            "points": [
+                "Mixes 6-12 instruments and vocals into a strong, balanced mosaic of sound.",
+                "Problem solving under pressure to ensure a solid, upbeat performance."
+            ]
+        },
+        {
+            "logoName": "companyLogoWestheightsCC",
+            "role": "Teaching Assistant",
+            "company": "Westheights CC",
+            "date": "2015 - Present",
+            "points": [
+                "Supported teacher with around 10-20 children.",
+                "Able to manage the children and help the teacher to create a fun learning environment."
+            ]
+        },
+        {
+            "logoName": "companyLogoForestHeightsCI",
+            "role": "Tech Crew Leader",
+            "company": "Forest Heights CI",
+            "date": "2015 - 2019",
+            "points": [
+                "Responsible for audio, video, and lighting effects.",
+                "Led teams of 3-15 people to ensure events and activities ran successfully.",
+                "Fixed problems under pressure."
+            ]
+        }
+    ]
+}
