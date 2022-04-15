@@ -1,0 +1,12 @@
+{
+    "pages": [
+        {
+            "url": "yoilith",
+            "text": "Hello good sir"
+        },
+        {
+            "url": "test",
+            "text": "Beep boop, this is a test"
+        }
+    ]
+}

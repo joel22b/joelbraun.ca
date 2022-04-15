@@ -20,7 +20,9 @@ function ContactBar() {
                     </a>
                 </div>
                 <div className="ContactBar-icon-spacing">
-                    <i className="far fa-envelope fa-2x ContactBar-icon-size"/>
+                    <a href="mailto:j6braun@uwaterloo.ca" target="_blank" title="j6braun@uwaterloo.ca">
+                        <i className="far fa-envelope fa-2x ContactBar-icon-size"/>
+                    </a>
                 </div>
             </div>
         </div>

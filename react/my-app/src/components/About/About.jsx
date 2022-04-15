@@ -7,7 +7,8 @@ import joelHeadshot from '../../img/joel-headshot.jpg'
 
 import skillsLanguages from '../../generic/data/skillsLanguages.json'
 import skillsFrameworks from '../../generic/data/skillsFrameworks.json'
-import skillsOthers from '../../generic/data/skillsOthers.json'
+import skillsTools from '../../generic/data/skillsTools.json'
+import skillsCloudTechnologies from '../../generic/data/skillsCloudTechnologies.json'
 import skillsMethodologies from '../../generic/data/skillsMethodologies.json'
 
 import workExperienceJSON from '../../generic/data/WorkExperience.json';
@@ -20,11 +21,9 @@ import companyLogoCampKahquah from '../../img/company-logo-camp-kahquah.png';
 import companyLogoUW from '../../img/company-logo-uw.png';
 import companyLogoDefault from '../../img/company-logo-default.png';
 
-import resumeJoelBraun from '../../generic/resume/joel-braun-resume.pdf'
-
-function About() {
+function About({resumeJoelBraun}) {
     return (
-        <div className="section" id="about-section">
+        <div className="section" id="aboutSection">
             <div className="item">
                 <h1 className="section-header">About</h1>
                 <img src={joelHeadshot} className="about-image about-headshot" alt=""/>
@@ -42,8 +41,12 @@ function About() {
                 <BubbleList skills={skillsFrameworks.skills} />
             </div>
             <div className="item">
-                <h2 className="header">Other</h2>
-                <BubbleList skills={skillsOthers.skills} />
+                <h2 className="header">Tools</h2>
+                <BubbleList skills={skillsTools.skills} />
+            </div>
+            <div className="item">
+                <h2 className="header">Cloud Technologies</h2>
+                <BubbleList skills={skillsCloudTechnologies.skills} />
             </div>
             <div className="item">
                 <h2 className="header">Methodologies</h2>

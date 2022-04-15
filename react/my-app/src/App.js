@@ -1,20 +1,47 @@
-import './App.css';
-import NavBar from './components/NavBar/NavBar.jsx';
-import ContactBar from './components/ContactBar/ContactBar.jsx';
-import Landing from './components/Landing/Landing.jsx';
-import About from './components/About/About.jsx';
-import Projects from './components/Projects/Projects.jsx';
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  useParams
+} from "react-router-dom";
 
-function App() {
+import { HomePage } from './components/HomePage/HomePage.jsx'
+import ProjectPage from './components/ProjectPage/ProjectPage.jsx'
+import AboutPage from './components/About/About.jsx'
+
+import projectPagesJSON from './generic/data/projectPages.json'
+
+export default function App() {
   return (
-    <div className="App">
-      <NavBar />
-      <ContactBar />
-      <Landing />
-      <About />
-      <Projects />
-    </div>
+    <Router>
+      <div>
+        <Switch>
+          <Route path="/">
+            <HomePage section="about-section" />
+          </Route>
+          <Route path="/about">
+            <HomePage section="about-section" />
+          </Route>
+          <Route path="/projects/:{id}" children={<ProjectsMapper />} />
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
-export default App;
+function ProjectsMapper() {
+  // We can use the `useParams` hook here to access
+  // the dynamic pieces of the URL.
+  let { id } = useParams();
+
+  let page = projectPagesJSON.pages.filter(page => page.url === id)
+
+  console.log(id)
+  console.log(page)
+
+  return (
+    <AboutPage />
+  );
+}

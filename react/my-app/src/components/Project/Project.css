@@ -9,15 +9,15 @@
 
 @media only screen and (max-width: 600px) {
     .Project {
-        width: 43vw;
-        height: 43vw;
+        width: 44.5vw;
+        height: 44.5vw;
     }
 }
 
 @media only screen and (max-width: 1200px) {
     .Project {
-        width: 33vw;
-        height: 33vw;
+        width: 34.5vw;
+        height: 34.5vw;
     }
 }
 

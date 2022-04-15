@@ -21,3 +21,8 @@
     font-family: "Roboto", sans-serif;
     color: #121212;
   }
+
+  .nav-link:hover,
+  .nav-item:hover {
+    color: #3e50f1
+  }

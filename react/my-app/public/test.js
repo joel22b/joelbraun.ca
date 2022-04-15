@@ -52,7 +52,9 @@ $(document).ready(function() {
                                     textDone += '<div><span style="transition-delay: '+(i/30)+'s;">'+textArray[i]+'</span></div>';
                                 }
                             }
+                            console.log("Done?");
                             $(this).html(textDone);
+                            console.log("Done??");
                         }
                     });
                 }
@@ -79,7 +81,8 @@ $(document).ready(function() {
                         ease: 'Power2.easeOut'
                     }, 0.05)
                 ]);
-	        }
+            }
+            console.log("Are we Done?");
 
 	        //splitLines Load
 	        var $splitLoad = $('.js-lines-l');
@@ -124,6 +127,7 @@ $(document).ready(function() {
                     })
                     .setClassToggle(step, 'animated')
                     .addTo(ctrl);
+                    console.log("Can I be Done?");
 		        }
 	        });
 
@@ -152,13 +156,16 @@ $(document).ready(function() {
 	                    ease: 'Circ.easeOut'
                     }, 0.2);
                 }
+                console.log("Helllloo")
                 new ScrollMagic.Scene({
                     triggerElement: this,
 	                triggerHook: 'onEnter',
 	                reverse: false
                 })
+                console.log("Testinggg")
                 .setTween(tweenLine)
                 .addTo(ctrl);
+                console.log("How about now");
             });
 
             // Animation DownUp
@@ -191,6 +198,7 @@ $(document).ready(function() {
 	                    ease: 'Power2.easeOut'
                     });
                 }
+                console.log("Nowww???")
                 new ScrollMagic.Scene({
                     triggerElement: this,
 	                triggerHook: 'onLeave',
@@ -201,5 +209,25 @@ $(document).ready(function() {
             });
 
         }, 3000);
+    });
+    $('body').imagesLoaded().always(function() {
+        var typingSpeed = 50; /* The speed/duration of the effect in milliseconds */
+        var switchSpeed = 200;
+        var text = ["Software Developer", "Computer Engineering Student", "Tech Enthusiest"];
+    
+        var speed = 100;
+        var txt = "Software Developer"
+        var i = 0;
+        TypingText();
+    
+        function TypingText() {
+            if (i < txt.length) {
+                console.log(txt.charAt(i));
+                document.getElementById("landingTitleTypingText").innerHTML += txt.charAt(i);
+                i++;
+                console.log(document.getElementById("landingTitleTypingText").innerHTML);
+                setTimeout(TypingText, speed);
+              }
+        }
     });
 });

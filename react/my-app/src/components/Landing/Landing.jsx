@@ -6,7 +6,7 @@ function Landing() {
     return (
         <div>
             <Preloader />
-            <header className="header-page header-fullscreen overlay" id="landing-section">
+            <header className="header-page header-fullscreen overlay" id="landingSection">
                 <div className="wrap-bg">
                     <figure className="js-image jarallax reveal">
                         <img src={bgImg} className="jarallax-img" alt="" />
@@ -17,7 +17,7 @@ function Landing() {
                     <div className="flex-center">
                         <div className="flex-center__inner">
                             <h1 className="title title--display js-lines-l">Hi, I'm <span className="text--blue">Joel Braun</span></h1>
-                            <h1 className="title title--display js-lines-l">Computer Engineer</h1>
+                            <h1 className="title title--display js-lines-l">Software Developer</h1>
                             <div className="js-lines"></div>
                         </div>
                     </div>

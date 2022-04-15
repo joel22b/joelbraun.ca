@@ -2,24 +2,23 @@
     "experience": [
         {
             "logoName": "companyLogoNCR",
-            "role": "Software Developer Coop",
+            "role": "Software Developer Co-op",
             "company": "NCR Corporation",
             "date": "Sept 2020 - Dec 2020",
             "points": [
-                "Developed a system to deposit checks in Java using test driven development.",
-                "Quickly learned the project and how every layer integrated together.",
-                "Worked closely with a developer team using agile methodologies."
+                "Developed a payment API with complete error handling in Java which maps multiple checks to multiple accounts.",
+                "Refactored using modular programming to reduce API's runtime by 30%.",
+                "Wrote thorough JUnit and Cucumber tests to ensure full functionality."
             ]
         },
         {
             "logoName": "companyLogoNCR",
-            "role": "Performance Test Engineer Coop",
+            "role": "Performance Test Engineer Co-op",
             "company": "NCR Company",
             "date": "Jan 2020 - Apr 2020",
             "points": [
-                "Worked closely with developers to design test plans.",
-                "Managed and deployed a performance cluster using kubernetes on linux servers.",
-                "Automated tests, cleanup, and updates using bash scripts."
+                "Managed and deployed 2 performance clusters with 8 nodes each using Kubernetes on GCP hosted Linux servers to run load tests.",
+                "Automated tests, cleanup, and build updates using bash scripts to reduce time between tests by over 70%."
             ]
         },
         {
