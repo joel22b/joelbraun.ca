@@ -1,6 +1,5 @@
 import './About.css';
 import BubbleList from '../BubbleList/BubbleList.jsx';
-import Experience from '../Experience/Experience';
 
 import aboutParagraph from '../../generic/data/aboutParagraph.json'
 import joelHeadshot from '../../img/joel-headshot.jpg'
@@ -10,18 +9,6 @@ import skillsFrameworks from '../../generic/data/skillsFrameworks.json'
 import skillsTools from '../../generic/data/skillsTools.json'
 import skillsCloudTechnologies from '../../generic/data/skillsCloudTechnologies.json'
 import skillsMethodologies from '../../generic/data/skillsMethodologies.json'
-
-import workExperienceJSON from '../../generic/data/WorkExperience.json';
-import volunteerExperienceJSON from '../../generic/data/VolunteerExperience.json';
-import eductionExperienceJSON from '../../generic/data/EductionExperience.json';
-import companyLogoOANDA from '../../img/company-logo-oanda.png';
-import companyLogoCARFAX from '../../img/company-logo-carfax.png';
-import companyLogoNCR from '../../img/company-logo-ncr.png';
-import companyLogoWestheightsCC from '../../img/company-logo-westheights-cc.png';
-import companyLogoForestHeightsCI from '../../img/company-logo-forest-heights-ci.png';
-import companyLogoCampKahquah from '../../img/company-logo-camp-kahquah.png';
-import companyLogoUW from '../../img/company-logo-uw.png';
-import companyLogoDefault from '../../img/company-logo-default.png';
 
 function About({resumeJoelBraun}) {
     return (
@@ -54,24 +41,6 @@ function About({resumeJoelBraun}) {
                 <h2 className="header">Methodologies</h2>
                 <BubbleList skills={skillsMethodologies.skills} />
             </div>
-            <div className="item" id="experienceSection">
-                <h2 className="header experience-header">Work Experience</h2>
-                {
-                    experienceMapper(workExperienceJSON)
-                }
-            </div>
-            <div className="item">
-                <h2 className="header experience-header">Volunteer Experience</h2>
-                {
-                    experienceMapper(volunteerExperienceJSON)
-                }
-            </div>
-            <div className="item">
-                <h2 className="header experience-header">Education</h2>
-                {
-                    experienceMapper(eductionExperienceJSON)
-                }
-            </div>
             <div className="item about-ending">
                 <div style={{"alignSelf": "flex-start"}}>
                     <a href={resumeJoelBraun} rel="noreferrer" target="_blank" download="Joel-Braun-Resume">
@@ -87,40 +56,6 @@ function About({resumeJoelBraun}) {
             </div>
         </div>
     );
-}
-
-const experienceMapper = (experienceJSON) => {
-    return experienceJSON.experience.map(
-        (experience, i) => {
-            switch(experience.logoName) {
-                case 'companyLogoOANDA':
-                    experience.logo = companyLogoOANDA
-                    break
-                case 'companyLogoCARFAX':
-                    experience.logo = companyLogoCARFAX
-                    break
-                case 'companyLogoNCR': 
-                    experience.logo = companyLogoNCR
-                    break
-                case 'companyLogoWestheightsCC': 
-                    experience.logo = companyLogoWestheightsCC
-                    break
-                case 'companyLogoForestHeightsCI': 
-                    experience.logo = companyLogoForestHeightsCI
-                    break
-                case 'companyLogoCampKahquah': 
-                    experience.logo = companyLogoCampKahquah
-                    break
-                case 'companyLogoUW': 
-                    experience.logo = companyLogoUW
-                    break
-                default:
-                    experience.logo = companyLogoDefault
-                    break
-            }
-            return <Experience props={experience} key={i} />
-        }
-    )
 }
 
 export default About;
