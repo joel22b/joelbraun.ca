@@ -1,24 +1,10 @@
 {
     "skills": [
-        {
-            "skill": "JUnit",
-            "colour": "rgb(31, 193, 177)"
-        },
-        {
-            "skill": "Django",
-            "colour": "rgb(245, 171, 0)"
-        },
-        {
-            "skill": "React",
-            "colour": "rgb(236, 62, 54)"
-        },
-        {
-            "skill": "Cucumber",
-            "colour": "rgb(52,194,30)"
-        },
-        {
-            "skill": "Maven",
-            "colour": "rgb(31, 193, 177)"
-        }
+        "Django",
+        "Docker",
+        "React",
+        "JUnit",
+        "Cucumber",
+        "Maven"
     ]
 }

@@ -1,32 +1,12 @@
 {
     "skills": [
-        {
-            "skill": "Git",
-            "colour": "rgb(31, 193, 177)"
-        },
-        {
-            "skill": "CI/CD",
-            "colour": "rgb(245, 171, 0)"
-        },
-        {
-            "skill": "Linux",
-            "colour": "rgb(236, 62, 54)"
-        },
-        {
-            "skill": "Docker",
-            "colour": "rgb(52,194,30)"
-        },
-        {
-            "skill": "Jenkins",
-            "colour": "rgb(31, 193, 177)"
-        },
-        {
-            "skill": "JIRA",
-            "colour": "rgb(245, 171, 0)"
-        },
-        {
-            "skill": "Confluence",
-            "colour": "rgb(236, 62, 54)"
-        }
+        "Linux",
+        "Windows",
+        "MacOS",
+        "Git",
+        "CI/CD",
+        "Jenkins",
+        "JIRA",
+        "Confluence"
     ]
 }
