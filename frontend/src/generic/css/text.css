@@ -6,17 +6,17 @@
     padding-bottom: 5rem;
 }
 
-@media only screen and (max-width: 600px) {
-    .section {
-        padding-left: 5vw;
-        padding-right: 5vw;
-    }
-}
-
 @media only screen and (max-width: 1200px) {
     .section {
         padding-left: 15vw;
         padding-right: 15vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .section {
+        padding-left: 5vw;
+        padding-right: 5vw;
     }
 }
 

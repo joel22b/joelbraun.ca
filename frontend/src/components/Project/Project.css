@@ -2,22 +2,29 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900");
 
 .Project {
-    width: 24.5vw;
-    height: 24.5vw;
+    width: 23.75vw;
+    height: 23.75vw;
     margin-bottom: 1vw;
-}
-
-@media only screen and (max-width: 600px) {
-    .Project {
-        width: 44.5vw;
-        height: 44.5vw;
-    }
 }
 
 @media only screen and (max-width: 1200px) {
     .Project {
-        width: 34.5vw;
-        height: 34.5vw;
+        width: 33.75vw;
+        height: 33.75vw;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .Project {
+        width: 67.5vw;
+        height: 67.5vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .Project {
+        width: 87.5vw;
+        height: 87.5vw;
     }
 }
 
@@ -37,10 +44,18 @@
     top:0; left:0; right:0; bottom:0;
     width: inherit;
     height: inherit;
+    display: table;
 }
 
 .Project-semitransparent:hover {
     background-image: radial-gradient(circle, rgba(0, 0, 0, 1) 30%, rgba(62, 80, 241, 0.3));
+}
+
+.Project-text {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
 
 .Project-header {
@@ -49,9 +64,8 @@
     line-height: 1.4;
     opacity: 1;
     font-size: 30px;
-    padding-top: 5vw;
-    padding-left: 3vw;
-    padding-right: 3vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
     margin-bottom: 1rem;
     color: #fff;
     text-align: center;
@@ -63,9 +77,6 @@
     line-height: 1.3;
     opacity: 1;
     font-size: 15px;
-    padding-top: 3vw;
-    padding-left: 2vw;
-    padding-right: 2vw;
     margin-bottom: 1rem;
     color: #fff;
     text-align: center;

@@ -1,6 +1,27 @@
 {
     "experience": [
         {
+            "logoName": "companyLogoOANDA",
+            "role": "Software Developer Co-op",
+            "company": "OANDA",
+            "date": "Jan 2022 - Apr 2022",
+            "points": [
+                "Developed and maintained the main trading API in C++, focusing on speed and reliability",
+                "Overhauled daily report generators to record a snapshot of every account and transaction, also improving write times and overall overall performance"
+            ]
+        },
+        {
+            "logoName": "companyLogoCARFAX",
+            "role": "Software Developer Co-op",
+            "company": "CARFAX",
+            "date": "May 2021 - Aug 2021",
+            "points": [
+                "Designed and implemented vehicle trip processing algorithm able to detect speeding, rapid accelerations, hard brakes, and distracted behaviour in ~1 second",
+                "Optimized existing code using a multithreaded approach in Javascript to halve runtime",
+                "Managed a Firestore database and added security rules to ensure data could only be accessed by the appropriate user(s)"
+            ]
+        },
+        {
             "logoName": "companyLogoNCR",
             "role": "Software Developer Co-op",
             "company": "NCR Corporation",

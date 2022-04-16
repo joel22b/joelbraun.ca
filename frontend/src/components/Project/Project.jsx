@@ -21,7 +21,7 @@ function Project({ props }) {
                         <div className="Project-semitransparent Project-rounded-corners">
                         {
                             hoverVisible ?
-                                <div>
+                                <div className='Project-text'>
                                     <h4 className="Project-header">{props.name}</h4>
                                     <p className="Project-desc">{props.desc}</p>
                                 </div>
@@ -34,7 +34,7 @@ function Project({ props }) {
                     <div className="Project-semitransparent Project-rounded-corners">
                     {
                         hoverVisible ?
-                            <div>
+                            <div className='Project-text'>
                                 <h4 className="Project-header">{props.name}</h4>
                                 <p className="Project-desc">{props.desc}</p>
                             </div>

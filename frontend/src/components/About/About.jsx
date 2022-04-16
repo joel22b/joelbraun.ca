@@ -14,6 +14,8 @@ import skillsMethodologies from '../../generic/data/skillsMethodologies.json'
 import workExperienceJSON from '../../generic/data/WorkExperience.json';
 import volunteerExperienceJSON from '../../generic/data/VolunteerExperience.json';
 import eductionExperienceJSON from '../../generic/data/EductionExperience.json';
+import companyLogoOANDA from '../../img/company-logo-oanda.png';
+import companyLogoCARFAX from '../../img/company-logo-carfax.png';
 import companyLogoNCR from '../../img/company-logo-ncr.png';
 import companyLogoWestheightsCC from '../../img/company-logo-westheights-cc.png';
 import companyLogoForestHeightsCI from '../../img/company-logo-forest-heights-ci.png';
@@ -91,6 +93,12 @@ const experienceMapper = (experienceJSON) => {
     return experienceJSON.experience.map(
         (experience, i) => {
             switch(experience.logoName) {
+                case 'companyLogoOANDA':
+                    experience.logo = companyLogoOANDA
+                    break
+                case 'companyLogoCARFAX':
+                    experience.logo = companyLogoCARFAX
+                    break
                 case 'companyLogoNCR': 
                     experience.logo = companyLogoNCR
                     break

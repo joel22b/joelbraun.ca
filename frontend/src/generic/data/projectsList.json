@@ -1,6 +1,24 @@
 {
     "projects": [
         {
+            "imageName": "projectImageToDoMapped",
+            "name": "To Do Mapped",
+            "desc": "I really wanted a platform where I can place markers on a map of various things I'd like to do because I always forget. For example, cool places to see, fun activities, date ideas, etc. This project allows me to zoom in on a map and see places and activities I'd like to do to help me plan trips or events.",
+            "link": ""
+        },
+        {
+            "imageName": "projectImageWordleSolver",
+            "name": "Wordle Solver",
+            "desc": "A program that tells you what to guess, in the popular Wordle game, to get as best a score as possible. I created this because I believe this is a fun little challenge to program and helps me beat my friends scores :)",
+            "link": "https://github.com/joel22b/Wordle-Solver"
+        },
+        {
+            "imageName": "projectImageBlockzone",
+            "name": "Blockzone",
+            "desc": "Developed an open world voxel game with C++, OpenGL, and a custom engine. Designed multi-threaded, seamless chunk loading to eliminate lag during player movement. Optimized terrain rendering pipeline by using a geometry shader to streamline object rendering, resulting in drastically increased performance from 30 fps to over 200 fps.",
+            "link": "https://github.com/joel22b/Blockzone"
+        },
+        {
             "imageName": "projectImageUMigrate",
             "name": "uMigrate",
             "desc": "uMigrate is a social media app for University students. I worked in the Cloud-ops team and did some work for the API team.",
@@ -10,7 +28,7 @@
             "imageName": "projectImageYoilith",
             "name": "Yoilith",
             "desc": "Top-down shootor game created in Java with many features like random map generation, terrain destruction, explosive weapons, wide range of guns, and combo and score system.",
-            "link": ""
+            "link": "https://github.com/joel22b/Yoilith"
         },
         {
             "imageName": "projectImageCapacitiveTouchLED",
