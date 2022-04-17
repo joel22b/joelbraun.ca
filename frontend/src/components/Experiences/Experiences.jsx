@@ -1,9 +1,7 @@
 import './Experiences.css';
 import Experience from '../Experience/Experience';
 
-import workExperienceJSON from '../../generic/data/WorkExperience.json';
-import volunteerExperienceJSON from '../../generic/data/VolunteerExperience.json';
-import eductionExperienceJSON from '../../generic/data/EductionExperience.json';
+import experiencesJSON from '../../generic/data/experiences.json';
 
 import companyLogoOANDA from '../../img/company-logo-oanda.png';
 import companyLogoCARFAX from '../../img/company-logo-carfax.png';
@@ -17,31 +15,23 @@ import companyLogoDefault from '../../img/company-logo-default.png';
 function Experiences() {
     return (
         <div className="section" id="experienceSection">
-            <h1 className="section-header" id="projectSection">Experiences</h1>
-            <div className="item">
-                <h2 className="header Experiences-header">Work Experience</h2>
-                {
-                    experienceMapper(workExperienceJSON)
-                }
-            </div>
-            <div className="item">
-                <h2 className="header Experiences-header">Education</h2>
-                {
-                    experienceMapper(eductionExperienceJSON)
-                }
-            </div>
-            <div className="item">
-                <h2 className="header Experiences-header">Volunteer Experience</h2>
-                {
-                    experienceMapper(volunteerExperienceJSON)
-                }
-            </div>
+            <h1 className="section-header">Experiences</h1>
+            {
+                experiencesJSON.map((exp, i) => {
+                    return <div className="item">
+                        <h2 className="header Experiences-header">{exp.name}</h2>
+                        {
+                            experienceMapper(exp.experience)
+                        }
+                    </div>
+                })
+            }
         </div>
     );
 }
 
-const experienceMapper = (experienceJSON) => {
-    return experienceJSON.experience.map(
+const experienceMapper = (exp) => {
+    return exp.map(
         (experience, i) => {
             switch(experience.logoName) {
                 case 'companyLogoOANDA':

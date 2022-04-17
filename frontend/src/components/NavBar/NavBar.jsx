@@ -24,13 +24,13 @@ function NavBar({resumeJoelBraun}) {
 						<a className="nav-link" onClick={() => scrollTo("landingSection")}>Home</a>
 					</li>
 					<li className="nav-item">
-						<a className="nav-link" onClick={() => scrollTo("projectSection")}>Projects</a>
-					</li>
-					<li className="nav-item">
 						<a className="nav-link" onClick={() => scrollTo("aboutSection")}>About</a>
 					</li>
 					<li className="nav-item">
 						<a className="nav-link" onClick={() => scrollTo("experienceSection")}>Experience</a>
+					</li>
+					<li className="nav-item">
+						<a className="nav-link" onClick={() => scrollTo("projectSection")}>Projects</a>
 					</li>
 					<li className="nav-item">
 						<a className="nav-link" href={resumeJoelBraun} rel="noreferrer" target="_blank" download="Joel-Braun-Resume">Resume</a>

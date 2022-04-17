@@ -4,11 +4,7 @@ import BubbleList from '../BubbleList/BubbleList.jsx';
 import aboutParagraph from '../../generic/data/aboutParagraph.json'
 import joelHeadshot from '../../img/joel-headshot.jpg'
 
-import skillsLanguages from '../../generic/data/skillsLanguages.json'
-import skillsFrameworks from '../../generic/data/skillsFrameworks.json'
-import skillsTools from '../../generic/data/skillsTools.json'
-import skillsCloudTechnologies from '../../generic/data/skillsCloudTechnologies.json'
-import skillsMethodologies from '../../generic/data/skillsMethodologies.json'
+import skills from '../../generic/data/skills.json';
 
 function About({resumeJoelBraun}) {
     return (
@@ -21,26 +17,14 @@ function About({resumeJoelBraun}) {
                 }
                 <div style={{"clear": "both"}}/>
             </div>
-            <div className="item">
-                <h2 className="header">Languages</h2>
-                <BubbleList skills={skillsLanguages.skills} />
-            </div>
-            <div className="item">
-                <h2 className="header">Frameworks</h2>
-                <BubbleList skills={skillsFrameworks.skills} />
-            </div>
-            <div className="item">
-                <h2 className="header">Tools</h2>
-                <BubbleList skills={skillsTools.skills} />
-            </div>
-            <div className="item">
-                <h2 className="header">Cloud Technologies</h2>
-                <BubbleList skills={skillsCloudTechnologies.skills} />
-            </div>
-            <div className="item">
-                <h2 className="header">Methodologies</h2>
-                <BubbleList skills={skillsMethodologies.skills} />
-            </div>
+            {
+                skills.map((skill, i) => {
+                    return <div className="item">
+                        <h2 className="header">{skill.name}</h2>
+                        <BubbleList skills={skill.skills} />
+                    </div>
+                })
+            }
             <div className="item about-ending">
                 <div style={{"alignSelf": "flex-start"}}>
                     <a href={resumeJoelBraun} rel="noreferrer" target="_blank" download="Joel-Braun-Resume">

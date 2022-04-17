@@ -1,0 +1,19 @@
+{
+    "contactMethods": [
+        {
+            "icon": "fab fa-github-square fa-2x",
+            "link": "https://www.github.com/joel22b",
+            "name": "github.com/joel22b"
+        },
+        {
+            "icon": "fab fa-linkedin fa-2x",
+            "link": "https://www.linkedin.com/in/joel-braun",
+            "name": "linkedin.com/in/joel-braun"
+        },
+        {
+            "icon": "far fa-envelope fa-2x ContactBar-icon-size",
+            "link": "mailto:j6braun@uwaterloo.ca",
+            "name": "j6braun@uwaterloo.ca"
+        }
+    ]
+}

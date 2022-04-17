@@ -1,29 +1,20 @@
 import './ContactBar.css';
 
+import contacts from '../../generic/data/contact.json';
+
 function ContactBar() {
     return (
         <div className="ContactBar  ContactBar-icon-background">
             <div className="ContactBar-flex-container">
-                <div className="ContactBar-icon-spacing">
-                    <a href="https://www.github.com/joel22b" rel="noreferrer" target="_blank">
-                        <i className="fab fa-github-square fa-2x"/>
-                    </a>
-                </div>
-                <div className="ContactBar-icon-spacing">
-                    <a href="https://www.linkedin.com/in/joel-braun" rel="noreferrer" target="_blank">
-                        <i className="fab fa-linkedin fa-2x"/>
-                    </a>
-                </div>
-                <div className="ContactBar-icon-spacing">
-                    <a href="https://www.instagram.com/joel22b" rel="noreferrer" target="_blank">
-                        <i className="fab fa-instagram fa-2x"/>
-                    </a>
-                </div>
-                <div className="ContactBar-icon-spacing">
-                    <a href="mailto:j6braun@uwaterloo.ca" target="_blank" title="j6braun@uwaterloo.ca">
-                        <i className="far fa-envelope fa-2x ContactBar-icon-size"/>
-                    </a>
-                </div>
+                {
+                    contacts.contactMethods.map((contact, i) => {
+                        return <div className="ContactBar-icon-spacing">
+                            <a href={contact.link} rel="noreferrer" target="_blank" title={contact.name}>
+                                <i className={contact.icon}/>
+                            </a>
+                        </div>
+                    })
+                }
             </div>
         </div>
     );

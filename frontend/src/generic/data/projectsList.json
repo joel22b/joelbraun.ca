@@ -25,6 +25,12 @@
             "link": "https://github.com/Team-uMigrate/umigrate"
         },
         {
+            "imageName": "projectImageWebsite",
+            "name": "joelbraun.ca",
+            "desc": "This is my personal website project. This is a reactJS app I made from scratch and is made to be fully modular. All of the data in the website is generated out of JSON files so to update my website I just need to update a few JSONs.",
+            "link": "https://github.com/joel22b/joelbraun.ca"
+        },
+        {
             "imageName": "projectImageYoilith",
             "name": "Yoilith",
             "desc": "Top-down shootor game created in Java with many features like random map generation, terrain destruction, explosive weapons, wide range of guns, and combo and score system.",

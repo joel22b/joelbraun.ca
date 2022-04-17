@@ -1,0 +1,54 @@
+[
+    {
+        "name": "Languages",
+        "skills": [
+            "C/C++",
+            "Python",
+            "JavaScript",
+            "Java",
+            "Bash",
+            "C#",
+            "HTML",
+            "CSS"
+        ]
+    },
+    {
+        "name": "Frameworks",
+        "skills": [
+            "Django",
+            "Docker",
+            "React",
+            "JUnit",
+            "Cucumber",
+            "Maven"
+        ]
+    },
+    {
+        "name": "Tools",
+        "skills": [
+            "Linux",
+            "Windows",
+            "MacOS",
+            "Git",
+            "CI/CD",
+            "Jenkins",
+            "JIRA",
+            "Confluence"
+        ]
+    },
+    {
+        "name": "Cloud Technologies",
+        "skills": [
+            "Google Cloud Platform",
+            "Kubernetes",
+            "Azure"
+        ]
+    },
+    {
+        "name": "Methodologies",
+        "skills": [
+            "Agile",
+            "Test Driven Development"
+        ]
+    }
+]
