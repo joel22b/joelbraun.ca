@@ -8,7 +8,7 @@ function ContactBar() {
             <div className="ContactBar-flex-container">
                 {
                     contacts.contactMethods.map((contact, i) => {
-                        return <div className="ContactBar-icon-spacing">
+                        return <div className="ContactBar-icon-spacing" key={i}>
                             <a href={contact.link} rel="noreferrer" target="_blank" title={contact.name}>
                                 <i className={contact.icon}/>
                             </a>

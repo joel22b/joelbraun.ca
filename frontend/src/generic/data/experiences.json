@@ -1,6 +1,8 @@
 [
     {
         "name": "Work Experience",
+        "show": 4,
+        "needExpand": false,
         "experience": [
             {
                 "logoName": "companyLogoOANDA",
@@ -70,6 +72,8 @@
     },
     {
         "name": "Education",
+        "show": 2,
+        "needExpand": false,
         "experience": [
             {
                 "logoName": "companyLogoUW",
@@ -84,6 +88,8 @@
     },
     {
         "name": "Volunteer Experience",
+        "show": 2,
+        "needExpand": false,
         "experience": [
             {
                 "logoName": "companyLogoWestheightsCC",

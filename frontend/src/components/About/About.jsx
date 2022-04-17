@@ -19,7 +19,7 @@ function About({resumeJoelBraun}) {
             </div>
             {
                 skills.map((skill, i) => {
-                    return <div className="item">
+                    return <div className="item" key={i}>
                         <h2 className="header">{skill.name}</h2>
                         <BubbleList skills={skill.skills} />
                     </div>

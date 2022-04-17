@@ -2,6 +2,9 @@ import './Landing.css';
 import Preloader from '../Preloader/Preloader.jsx';
 import bgImg from '../../img/circuit-bg.png';
 
+import Typed from 'react-typed';
+import typingText from '../../generic/data/typingTextLandingTitle.json';
+
 function Landing() {
     return (
         <div>
@@ -17,7 +20,9 @@ function Landing() {
                     <div className="flex-center">
                         <div className="flex-center__inner">
                             <h1 className="title title--display js-lines-l">Hi, I'm <span className="text--blue">Joel Braun</span></h1>
-                            <h1 className="title title--display js-lines-l">Software Developer</h1>
+                            <h1 className="title title--display js-lines-l">
+                                <Typed strings={typingText.text} typeSpeed={75} backSpeed={50} backDelay={2000} loop smartBackspace />
+                            </h1>
                             <div className="js-lines"></div>
                         </div>
                     </div>

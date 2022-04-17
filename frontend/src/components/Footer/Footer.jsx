@@ -9,13 +9,15 @@ function Footer() {
             <div className='Footer-table'>
                 {
                     contacts.contactMethods.map((contact, i) => {
-                        return <div className='Footer-row'>
+                        return <div className='Footer-row' key={i}>
                             <a href={contact.link} rel="noreferrer" target="_blank" title={contact.name}>
                                 <table>
-                                    <tr>
-                                        <td><i className={contact.icon}/></td>
-                                        <td><p className='Footer-contact'>{contact.name}</p></td>
-                                    </tr>
+                                    <tbody>
+                                        <tr>
+                                            <td><i className={contact.icon}/></td>
+                                            <td><p className='Footer-contact'>{contact.name}</p></td>
+                                        </tr>
+                                    </tbody>
                                 </table>
                             </a>
                         </div>
