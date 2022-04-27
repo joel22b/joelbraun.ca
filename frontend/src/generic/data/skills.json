@@ -2,7 +2,8 @@
     {
         "name": "Languages",
         "skills": [
-            "C/C++",
+            "C",
+            "C++",
             "Python",
             "JavaScript",
             "Java",

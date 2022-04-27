@@ -10,8 +10,8 @@
                 "company": "OANDA",
                 "date": "Jan 2022 - Apr 2022",
                 "points": [
-                    "Developed and maintained the main trading API in C++, focusing on speed and reliability",
-                    "Overhauled daily report generators to record a snapshot of every account and transaction, also improving write times and overall overall performance"
+                    "Overhauled daily report generators in C++ to record a snapshot of every account and transaction, also improving write times and overall performance by 20%.",
+                    "Updated the main trading API from a microservices system hosted on inhouse Linux servers to allow it to transition to a Kubernetes system hosted in Google Cloud Platform."
                 ]
             },
             {
@@ -20,9 +20,9 @@
                 "company": "CARFAX",
                 "date": "May 2021 - Aug 2021",
                 "points": [
-                    "Designed and implemented vehicle trip processing algorithm able to detect speeding, rapid accelerations, hard brakes, and distracted behaviour in ~1 second",
-                    "Optimized existing code using a multithreaded approach in Javascript to halve runtime",
-                    "Managed a Firestore database and added security rules to ensure data could only be accessed by the appropriate user(s)"
+                    "Designed and implemented vehicle trip processing algorithm able to detect speeding, rapid accelerations, hard brakes, and distracted behaviour in ~1 second.",
+                    "Optimized existing code using a multithreaded approach in Javascript to halve runtime.",
+                    "Managed a Firestore database and added security rules to ensure data could only be accessed by the appropriate user(s)."
                 ]
             },
             {
